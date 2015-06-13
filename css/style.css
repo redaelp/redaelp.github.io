@@ -1,0 +1,353 @@
+/****************************************
+  Import Bootstrap
+*****************************************/
+@import url("bootstrap.min.css");
+
+
+
+/**********************
+	typography
+***********************/
+@font-face {
+    font-family: 'nexa';
+    src: url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot');
+    src: url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.ttf') format('truetype'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'comfortaa';
+  src: url('../fonts/Comfortaa_Regular-webfont.eot');
+  src: url('../fonts/Comfortaa_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Comfortaa_Regular-webfont.woff2') format('woff2'),
+       url('../fonts/Comfortaa_Regular-webfont.woff') format('woff'),
+       url('../fonts/Comfortaa_Regular-webfont.ttf') format('truetype'),
+       url('../fonts/Comfortaa_Regular-webfont.svg#comfortaaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+    font-family: 'bebas_neue';
+    src: url('../fonts/BebasNeue Regular-webfont.eot');
+    src: url('../fonts/BebasNeue Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Regular-webfont.woff2') format('woff2'),
+         url('../fonts/BebasNeue Regular-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue Regular-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue Regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'crimson';
+    src: url('../fonts/CrimsonText-Roman-webfont.eot');
+    src: url('../fonts/CrimsonText-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CrimsonText-Roman-webfont.woff2') format('woff2'),
+         url('../fonts/CrimsonText-Roman-webfont.woff') format('woff'),
+         url('../fonts/CrimsonText-Roman-webfont.ttf') format('truetype'),
+         url('../fonts/CrimsonText-Roman-webfont.svg#crimson_textroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/**********************
+	icons
+***********************/
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+    font-size: 2em;
+	font-style: normal;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.flaticon-facebook2:before {
+	content: "\e000";
+}
+.flaticon-instagram19:before {
+	content: "\e001";
+}
+.flaticon-twitter:before {
+	content: "\e002";
+}
+
+
+#social {
+	margin-bottom: 1.3em;
+	text-align: center;
+}
+
+
+
+h1 {
+	letter-spacing: 0.07em;
+	text-align: center;
+	color: #FF8533;
+  	font-family: 'nexa';
+	font-size: 2.8em;
+}
+h2, h3, h4, h5, h6 {
+	letter-spacing: 0.03em;
+	font-family: 'bebas_neue';
+	font-weight: bold;
+	color: #2980B9;
+}
+h2 {
+	font-size: 2.369em;
+}
+h3 {
+	font-size: 1.777em;
+}
+h4 {
+	font-size: 1.333em;
+}
+p {
+	font-family: 'crimson';
+	font-size: 1.25em;
+	line-height: 1.3;
+}
+a {
+    text-decoration: none;
+    padding-bottom: 2px;
+    color: #4D4D4D;
+}
+a:hover {
+    text-decoration: none;
+    color: #FF8533;
+}
+#org, #abbr {
+	font-family: 'comfortaa';
+	color: #ECF0F1;
+	font-weight: bold;
+}
+.bold {
+	font-weight: bold;
+}
+.footer {
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5;
+}
+.footer p {
+  font-size: 1em;
+  text-align: center;
+}
+.btn-primary {
+	border: none;
+	margin-top: 1em;
+	font-weight: bold;
+	background-color: #2980B9;
+	border-bottom: 3px solid #2C3E50; 
+}
+
+
+
+
+/**********************
+	layout
+***********************/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+    padding: 80px 0 30px 0;
+    background-image: url('../img/wild_oliva.png');
+}
+.wrapper {
+	background-color: #ECF0F1;
+	border-radius: 3px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.wrapper .navbar-fixed-top {
+	background-color: #2980B9;
+	border-bottom: none;
+}
+.image {
+    position:relative;
+}
+.image img {
+    border-radius: 3px;
+}
+.text {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 20px;
+    width: 100%
+}
+.gen-info h2 {
+	margin-top: 1.5em;
+}
+#posts {
+	text-align: center;
+	margin-bottom: 1.25em;
+}
+.post {
+  margin-bottom: 1.35em;
+}
+#posts .post-date {
+  font-family: 'comfortaa';
+  font-size: 0.9em;
+  color: #999999;
+  padding-right: 0.5em;
+}
+#posts a {
+  letter-spacing: 0.07em;
+  font-family: 'bebas_neue';
+  font-size: 1.2em;
+}
+#contact-form input {
+    margin-bottom: 0.8em;
+}
+#contact-form textarea {
+    margin-bottom: 1em;
+}
+.modal-footer {
+	border: none;
+	padding-right: 0;
+}
+#contact-form button {
+    border-radius: 0px;
+    color: #2980B9;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #DDD;
+}
+#contact-form button:hover {
+    background-color: #2980B9;
+    color: #FFF;
+}
+input, textarea {
+    font-size: 0.8em;
+    font-family: "source-code-pro",monospace;
+    border: 1px solid #DDD;
+    background: none repeat scroll 0% 0% #FFF;
+    padding: 0.9em;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+input[type=text], input[type=email], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  border: 1px solid #DDD;
+}
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+
+
+/**********************
+	media queries
+***********************/
+@media (min-width: 768px) {
+	.container {
+		max-width: 730px;
+	}
+	.image img {
+		height: 450px;
+	}
+}
+
+@media (max-width: 680px) {
+	.text {
+		font-size: 0.8em;
+	}
+	.image img {
+		height: 400px;
+	}
+}
+
+@media (min-width: 481px) {
+	.gen-info {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	#abbr {
+		display: none;
+	}
+}
+
+@media (max-width: 480px) {
+	body {
+		padding-top: 50px;
+	}
+	.wrapper {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+	#org {
+		display: none;
+	}
+	.gen-info #contact {
+		text-align: center;
+	}
+	h2 {
+		font-size: 1.8em;
+	}
+	.text {
+		font-size: 0.56em;
+	    top: 4px;
+	}
+	.gen-info p {
+		font-size: 1.1em;
+	}
+	.image img {
+		height: 300px;
+	}
+	#posts {
+		text-align: left;
+	}
+	#posts .post-date {
+	  display: none;
+	}
+}
+
+@media (max-width: 360px) {
+	body {
+		padding-top: 50px;
+	}
+	
+	#org {
+		display: none;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.8em;
+	}
+	.image img {
+		height: 225px;
+	}
+	#posts {
+		text-align: left;
+	}
+
+}

@@ -1,0 +1,230 @@
+/****************************************
+  Import Bootstrap
+*****************************************/
+@import url("bootstrap.min.css");
+
+
+
+/****************************************
+	Resets
+*****************************************/
+@font-face {
+    font-family: 'bebas_neue';
+    src: url('../fonts/BebasNeue Regular-webfont.eot');
+    src: url('../fonts/BebasNeue Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue Regular-webfont.woff2') format('woff2'),
+         url('../fonts/BebasNeue Regular-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue Regular-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue Regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'crimson';
+    src: url('../fonts/CrimsonText-Roman-webfont.eot');
+    src: url('../fonts/CrimsonText-Roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CrimsonText-Roman-webfont.woff2') format('woff2'),
+         url('../fonts/CrimsonText-Roman-webfont.woff') format('woff'),
+         url('../fonts/CrimsonText-Roman-webfont.ttf') format('truetype'),
+         url('../fonts/CrimsonText-Roman-webfont.svg#crimson_textroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'nexa';
+    src: url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot');
+    src: url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.ttf') format('truetype'),
+         url('../fonts/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'comfortaa';
+  src: url('../fonts/Comfortaa_Regular-webfont.eot');
+  src: url('../fonts/Comfortaa_Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Comfortaa_Regular-webfont.woff2') format('woff2'),
+       url('../fonts/Comfortaa_Regular-webfont.woff') format('woff'),
+       url('../fonts/Comfortaa_Regular-webfont.ttf') format('truetype'),
+       url('../fonts/Comfortaa_Regular-webfont.svg#comfortaaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    padding: 60px 0 30px 0;
+    background-image: url('../img/wild_oliva.png');
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #4D4D4D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'bebas_neue';
+    letter-spacing: 0.03em;
+}
+
+p {
+    font-family: 'crimson';
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    padding-bottom: 2px;
+    color: #4D4D4D;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FF8533;
+}
+
+/****************************************
+	Jumbotron-Narrow
+*****************************************/
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5;
+}
+.footer p {
+  font-size: 1em;
+}
+.container {
+  border-radius: 3px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin-bottom: 40px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/****************************************
+	Posts
+*****************************************/
+
+#header {
+    margin-top: 32px;
+    padding: 16px;
+    text-align: center;
+}
+#header h1 {
+    font-family: 'nexa';
+    color: #FF8533;
+    margin: auto;
+}
+#header h3 {
+    color: #2980B9;
+    font-weight: bold;
+}
+h5#date {
+    margin: 0 auto;
+    color: #787878;
+    font-family: 'comfortaa';
+}
+#content {
+    margin: 32px auto;
+    text-align: justify;
+}
+#content p {
+    line-height: 1.62em;
+    margin-bottom: 24px;
+}
+#container {
+  background-color: #ECF0F1;
+  padding: 16px 32px;
+  margin-top: 0px;
+  margin-bottom: 32px;
+} 
+
+@media (min-width: 768px){
+    #content {
+      margin: 32px auto;
+      padding: 0 1.25em;
+      text-align: justify;
+    }
+    #container {
+      margin: 32px auto;
+      padding: 32px;
+      text-align: justify;
+    }
+
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 0px;
+  }
+  #header {
+    padding: 0;
+  }
+  #header h1 {
+    font-size: 1.3em;
+  }
+
+  #header h3 {
+    font-size: 1.1em;
+  }
+  #header h5 {
+    font-size: 0.8em;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 468px) {
+  body {
+    padding: 0px;
+  }
+}
