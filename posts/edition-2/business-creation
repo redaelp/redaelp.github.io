@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Regional Identity | REDA</title>
+
+    <!-- Bootstrap -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/post.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container" id="container">
+    
+        <!-- Header -->
+        <div id="header">
+            <h1>Creating A Successful Business</h1><!-- Title -->
+            <h3>Jovanna Solis & Karla Lujan</h3><!-- Author -->
+            <h5 id="date">January 28, 2016</h5><!-- Date -->
+        </div>
+        <!-- End Header -->
+
+        <!-- Content -->
+        <div id="content">
+            <p>Often times when one seeks advice on how to run a successful business the responses are always either too ambiguous 
+            or too vague. To start off your venture as an entrepreneur takes a lot of courage and challenge. If you decide you have
+            the courage and you are ready to take on the risks then you are at a good start. Professor Art Diaz, from The University 
+            of Texas at El Paso (UTEP), was kind enough to sit with us and answer a few questions on what his best advice is to run 
+            a successful business based on his experience. Professor Diaz is a lecturer in the marketing and management department 
+            at the College of Business at UTEP and an executive director of Centers for Entrepreneurial Development, Advancement, 
+            Research and Support (CEDARS). Aside from being a professor at UTEP, he owns several successful businesses and has consulted 
+            several hundred other businesses in other cities as well.
+            When asked what three pieces of advice he would give to college students who want to become entrepreneurs, Professor Diaz 
+            said it is important to “have passion, have a good business plan, and understand your financials”. Most successful businesses 
+            are built on purpose and passion which leads to commitment and dedication. There is no point in creating a business if you are 
+            not prepared to give it your all, which is why you should maintain the desire and passion to achieve your goal. Professor Diaz 
+            also emphasized that in order to accomplish your business idea you must create a business plan. Most often businesses fail at 
+            their early stages of development because their business plan fails to meet certain area expectations, this is why it is essential 
+            that you create a good business plan before you start your venture. To make sure that your business plan succeeds, Professor Diaz 
+            advises to set yourself a goal, understand budgets, research your markets, and to have a firm understanding of the different areas
+            of the business.  Understanding the functions of financial statements for your business will help you stay on track of your business,
+            meaning, keeping track of the income and expenses and finding out what regulations your business needs to abide by and so on.
+            When asked about his past failures and what lesson he learned from them, Professor Diaz said he had none but mostly missed opportunities.
+            Some of his regrets were not attending college right after high school as well as missed opportunities on investments in which included
+            not buying stocks on American Airlines, McDonald’s, and Chevron among others. His reason given for such missed opportunities was because 
+            he was not ready to take on such risks. With this, he emphasized once again how important it is to be knowledgeable on your market and 
+            understand financials. 
+            Finally, when asked about what motivates him to continue being a business owner, he said it is mostly staying busy, helping people, and 
+            having independence. An advantage he mentioned about owning your own business is that you get to be your own boss and you can do it anywhere 
+            as long as there is a market you can work with. In all, you could say that if you are self-motivated, ready to work hard, you have a business 
+            plan ready, there is a market for your work and you are truly passionate about what you are embarking on, then you have the elements that will
+            make your business successful.</p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <!-- End Content -->
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES * * */
+            var disqus_shortname = 'regionalidentity';
+            
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-63960323-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    
+  </body>
+</html>
